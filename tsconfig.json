@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@views/*": [
+        "./src/views/*"
+      ],
+      "@theme/*": [
+        "./src/theme/*"
+      ],
+      "@redux/*": [
+        "./src/redux/*"
+      ],
+      "@actions/*": [
+        "./src/redux/actions/*"
+      ],
+      "@controllers/*": [
+        "./src/app/controllers/*"
+      ],
+      "@models/*": [
+        "./src/app/types/*"
+      ],
+      "@routers/*": [
+        "./src/routers/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@api/*": [
+        "./src/app/api/*"
+      ],
+      "@icomoon/*": [
+        "./src/vendors/icomoon/*"
+      ],
+      "@helpers/*": [
+        "./src/app/helpers/*"
+      ],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
