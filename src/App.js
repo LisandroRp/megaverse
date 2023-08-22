@@ -18,6 +18,10 @@ function App() {
   const dispatch = useAppDispatch();
   const { data } = useAppSelector((state) => state.app);
 
+  useEffect(() => {
+    getCandidateGoal()
+  }, [])
+
 
   useEffect(() => {
     if (data)
